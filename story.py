@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-URL = "https://servicioskoinonia.org/cuentoscortos/articulo.php?num=046"
+URL = "https://americanliterature.com/author/w-w-jacobs/short-story/the-old-man-of-the-sea/"
 
 response = requests.get(URL)
 

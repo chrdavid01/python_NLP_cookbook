@@ -1,11 +1,7 @@
 {
     "name": "Python 3.12 Development",
-    "image": "python:3.12",
-    "postCreateCommand": "pip install --upgrade pip && pip install black",
-    "features": {
-      "ghcr.io/devcontainers/features/python:1": {
-        "version": "3.12"
-      }
+    "build": {
+        "dockerfile": "Dockerfile"
     },
     "customizations": {
         "vscode": {
@@ -16,6 +12,6 @@
                 "GitHub.vscode-pull-request-github"
             ]
         }
-    }
-  }
-  
+    },
+    "postCreateCommand": "pip install -r requirements.txt && python setup_nltk.py"
+}
