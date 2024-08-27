@@ -9,7 +9,10 @@
                 "ms-python.vscode-pylance",
                 "ms-python.python",
                 "ms-python.debugpy",
-                "GitHub.vscode-pull-request-github"
+                "GitHub.vscode-pull-request-github",
+                "ms-azuretools.vscode-docker",
+                "ms-vscode-remote.remote-wsl",
+                "ms-python.black-formatter"
             ]
         }
     },
